@@ -1,0 +1,97 @@
+.home-container {
+  font-family: 'Segoe UI', sans-serif;
+  color: var(--text-color, #fff);
+  background-color: var(--background-color, #121212);
+  padding: 2rem;
+}
+
+/* Hero Section */
+.hero {
+  text-align: center;
+  padding: 4rem 1rem;
+}
+
+.hero h1 {
+  font-size: 2.8rem;
+  margin-bottom: 1rem;
+  color: #ff4d6d;
+}
+
+.hero p {
+  font-size: 1.1rem;
+  color: #ccc;
+  margin-bottom: 2rem;
+}
+
+.cta-button {
+  padding: 12px 24px;
+  font-size: 1rem;
+  background: #7b2cbf;
+  border: none;
+  color: white;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.cta-button:hover {
+  background: #5a189a;
+  transform: scale(1.05);
+}
+
+/* Features Section */
+.features {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 3rem 0;
+  gap: 1.5rem;
+}
+
+.feature-card {
+  background: #1e1e1e;
+  padding: 2rem;
+  border-radius: 15px;
+  text-align: center;
+  flex: 1;
+  min-width: 250px;
+  transition: transform 0.3s ease;
+}
+
+.feature-card:hover {
+  transform: translateY(-5px);
+}
+
+.feature-icon {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #ff6b6b;
+}
+
+/* How It Works */
+.how-it-works {
+  text-align: center;
+  margin-top: 3rem;
+}
+
+.how-it-works h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.how-it-works ol {
+  text-align: left;
+  max-width: 600px;
+  margin: 0 auto;
+  line-height: 1.8;
+  color: #aaa;
+}
+
+/* Footer */
+.footer {
+  text-align: center;
+  margin-top: 4rem;
+  font-size: 0.9rem;
+  color: #777;
+  padding-bottom: 2rem;
+}

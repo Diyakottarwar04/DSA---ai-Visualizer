@@ -1,0 +1,12 @@
+/* Reset all default margins/paddings */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Ensure full height background */
+html, body, #root {
+  height: 100%;
+  background-color: var(--background-color, #121212);
+}

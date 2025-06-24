@@ -1,0 +1,85 @@
+/* Global Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Theme Colors via CSS Variables */
+body[data-theme="dark"] {
+  --background-color: #121212;
+  --text-color: #ffffff;
+  --card-bg: #1e1e1e;
+  --accent: #7b2cbf;
+  --highlight: #ff4d6d;
+}
+
+body[data-theme="light"] {
+  --background-color: #f5f5f5;
+  --text-color: #111111;
+  --card-bg: #ffffff;
+  --accent: #7b2cbf;
+  --highlight: #e63946;
+}
+
+/* Apply Global Theme */
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: var(--background-color);
+  color: var(--text-color);
+  transition: background-color 0.3s ease, color 0.3s ease;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+/* Generic Containers */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1rem 2rem;
+}
+
+button {
+  font-family: inherit;
+}
+
+/* CTA Button (use in Hero section etc.) */
+.cta-button {
+  padding: 12px 24px;
+  background-color: var(--accent);
+  color: white;
+  border: none;
+  border-radius: 25px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.cta-button:hover {
+  background-color: #5a189a;
+  transform: scale(1.05);
+}
+
+/* Section Headings */
+h1, h2, h3 {
+  color: var(--text-color);
+  margin-bottom: 1rem;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style: none;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-thumb {
+  background-color: rgba(125, 125, 125, 0.3);
+  border-radius: 5px;
+}

@@ -1,0 +1,14 @@
+.line-explain-container {
+  background: #eef6ff;
+  padding: 1rem;
+  margin-top: 1rem;
+  border-left: 4px solid #007acc;
+  border-radius: 4px;
+}
+.line-explain-container ul {
+  list-style: none;
+  padding: 0;
+}
+.line-explain-container li {
+  margin: 0.5rem 0;
+}
