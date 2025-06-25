@@ -46,7 +46,7 @@ const Home = () => {
 
       {/* Footer */}
       <footer className="footer fade-in">
-        <p>© 2025 DSA Visualizer | Built with ❤️ using React</p>
+        <p>© 2025 DSA Visualizer | Built with ❤️</p>
       </footer>
     </div>
   );
